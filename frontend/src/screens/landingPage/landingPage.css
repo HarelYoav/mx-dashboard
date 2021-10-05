@@ -1,0 +1,83 @@
+.main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* max-width: 520px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 2em; */
+}
+
+
+.landingText{
+    margin-bottom: 2rem;
+}
+
+.landingbutton{
+  margin: 10px;
+  width: 180px;
+  height: 55px;
+}
+
+
+.social-button{
+    color:white;
+    width: 180px;
+    height:55px;
+    border-radius: 0.3rem;
+    margin: 10px;
+    border: 1px solid #cecece;
+}
+
+.btnFacebook {
+    background: #3b5998;
+}
+
+.btnGoogle {
+    background: #db3236;
+}
+
+.btnFacebook:hover {
+    background: #3b5998;
+    opacity: 0.6;
+}
+
+.btnGoogle:hover {
+    background: #db3236;
+    opacity: 0.6;
+}
+
+.or-content{
+    display: flex;
+    line-height: 1em;
+    color: black;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+.or-content::before,
+.or-content::after {
+    content: '';
+    display: inline-block;
+    flex-grow: 1;
+    margin-top: 0.5em;
+    background: gray;
+    height: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .landingbutton{
+        margin: 5px 10px;
+        width: 150px;
+        height: 50px;
+    }
+    .social-button {
+        margin: 5px 10px;
+        width: 150px;
+        height: 50px;
+    }
+}

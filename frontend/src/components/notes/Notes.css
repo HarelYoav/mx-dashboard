@@ -1,0 +1,30 @@
+.card-note {
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+}
+
+.notes-component-row {
+    background: rgba(255,255,255, 0.2);
+    border-radius: 10px;
+
+}
+
+.notes-component-div {
+    /* width: 80%; */
+    /* height: 500px; */
+    margin: 35px 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .note-edit-button {
+        display: none;
+    }
+    .note-delete-button {
+        display: none;
+    }
+
+}

@@ -1,0 +1,24 @@
+//get user notes
+export const NOTE_LIST_REQUEST = 'NOTE_LIST_REQUEST';
+export const NOTE_LIST_SUCCESS = 'NOTE_LIST_SUCCESS';
+export const NOTE_LIST_FAIL = 'NOTE_LIST_FAIL';
+
+//add new note
+export const ADD_NOTE_REQUEST = 'ADD_NOTE_REQUEST';
+export const ADD_NOTE_SUCCESS = 'ADD_NOTE_SUCCESS';
+export const ADD_NOTE_FAIL = 'ADD_NOTE_FAIL';
+
+//update note
+export const NOTE_UPDATE_REQUEST = 'NOTE_UPDATE_REQUEST';
+export const NOTE_UPDATE_SUCCESS = 'NOTE_UPDATE_SUCCESS';
+export const NOTE_UPDATE_FAIL = 'NOTE_UPDATE_FAIL';
+
+//delete note
+export const NOTE_DELETE_REQUEST = 'NOTE_DELETE_REQUEST';
+export const NOTE_DELETE_SUCCESS = 'NOTE_DELETE_SUCCESS';
+export const NOTE_DELETE_FAIL = 'NOTE_DELETE_FAIL';
+
+//get all public notes
+export const NOTE_PUBLIC_LIST_REQUEST = 'NOTE_PUBLIC_LIST_REQUEST';
+export const NOTE_PUBLIC_LIST_SUCCESS = 'NOTE_PUBLIC_LIST_SUCCESS';
+export const NOTE_PUBLIC_LIST_FAIL = 'NOTE_PUBLIC_LIST_FAIL';
