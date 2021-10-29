@@ -1,4 +1,4 @@
-#Purpose of the project
+# Purpose of the project
 
 The purpose of this project for me was to learn how to integret all the parts of web development
 After I finished a online course on udemy about web development, 
