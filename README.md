@@ -1,7 +1,7 @@
 # Purpose of the project
 
 The purpose of this project for me was to learn how to integret all the parts of web development
-After I finished a online course on udemy about web development, 
+After I finished a online course on udemy, 
 I found my self with the knowledge how to develop using node.js, react, javaSript, html, css and more
 But with out the knowledge how to connect them all together to a single project
 
